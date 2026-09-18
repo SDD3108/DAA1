@@ -1,0 +1,11 @@
+Runtime: 21.0.11+9-LTS-211
+VM: Java HotSpot(TM) 64-Bit Server VM
+OS: Windows 11 amd64
+Available processors: 28
+Maximum heap bytes: 17137926144
+Measurements: 5 runs; 2 unrecorded warm-ups per case.
+Summary: median-time run, with counters from that same run.
+QuickSelect rank: k = n / 2 (zero-based upper median).
+Input generation, cloning and verification are outside timing.
+Metrics instrumentation and MergeSort buffer allocation are inside timing.
+All warm-up and measured outputs checked against Arrays.sort.
